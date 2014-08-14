@@ -1,13 +1,72 @@
 /* CSS for Aspects Website */
 
 .header {
-
+    margin-bottom: 0px;
+    padding: 50px;
+    background-color: #eee;
 }
 
 .footer {
-
+    margin-top: 30px;
+    padding: 30px;
+    border-top: 1px solid #eee;
 }
 
-.comment {
-    border-top: 1px solid lightgray;
+.menu-item {
+    width: 100px;
+    text-align: center;
+}
+
+.aspects-news {
+    min-height: 250px;
+    overflow: auto;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+.aspects-comment {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.aspects-progress {
+    height: 350px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+.aspects-recruitment {
+    height: 350px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+.aspects-video {
+    height: 200px;
+    margin-bottom: 50px;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+.aspects-video-mini {
+    height: 75px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+.aspects-roster {
+    height: 500px;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 6px;
 }

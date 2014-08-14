@@ -2,13 +2,13 @@
 <html class="no-js">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Test</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -24,9 +24,9 @@
 
 <div ng-include="'views/layout/header.html'"></div>
 
-<div ng-include="'views/news.html'"></div>
+<div ui-view></div>
 
-<div class="footer">
+<div ng-include="'views/layout/footer.html'"></div>
 
 </div>
 
@@ -53,7 +53,9 @@
 
 <!-- build:js({.tmp,app}) scripts/scripts.js -->
 <script src="scripts/app.js"></script>
-<script src="scripts/controllers/main.js"></script>
+<script src="scripts/directives/components/aspectsNews/aspectsNews.js"></script>
+<script src="scripts/directives/components/aspectsRecruitment/aspectsRecruitment.js"></script>
+<script src="scripts/directives/components/aspectsProgress/aspectsProgress.js"></script>
 <!-- endbuild -->
 </body>
 </html>
