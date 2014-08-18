@@ -8,7 +8,7 @@ angular.module('aspectsWebsiteUiApp')
         return {
             restrict: 'E',
             scope: {
-
+                progress: '='
             },
             controller: ['$scope', function($scope){
 

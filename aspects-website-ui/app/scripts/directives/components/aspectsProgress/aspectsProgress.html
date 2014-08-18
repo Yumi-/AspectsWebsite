@@ -1,5 +1,18 @@
 <div class="row">
     <div class="aspects-progress">
-        HOHO
+        <h2>Progress</h2>
+
+        <div ng-repeat="raid in progress">
+            <div class="col-xs-4 aspects-recruit">
+                <strong>{{raid.name}}</strong>
+            </div>
+            <div class="col-xs-5 aspects-recruit">
+                {{raid.downs}} / {{raid.total}}
+            </div>
+            <div class="col-xs-3 aspects-recruit">
+                {{raid.mode}}
+            </div>
+            <div class="col-xs-12"></div>
+        </div>
     </div>
 </div>

@@ -1,5 +1,18 @@
 <div class="row">
     <div class="aspects-recruitment">
-        HEHE
+        <h2>Recruitment</h2>
+
+        <div ng-repeat="recruit in recruits">
+            <div class="col-xs-4 text-center aspects-recruit {{recruit.class}}">
+                <strong>{{recruit.class}}</strong>
+            </div>
+            <div class="col-xs-5 aspects-recruit">
+                {{recruit.spec}}
+            </div>
+            <div class="col-xs-3 aspects-recruit">
+                {{recruit.needed}}
+            </div>
+            <div class="col-xs-12"></div>
+        </div>
     </div>
 </div>

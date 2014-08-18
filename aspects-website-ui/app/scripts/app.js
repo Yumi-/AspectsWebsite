@@ -3,7 +3,7 @@
 /**
  * Main module of the application.
  */
-var app = angular.module('aspectsWebsiteUiApp', [ 'ui.router', 'ngResource' ]);
+var app = angular.module('aspectsWebsiteUiApp', [ 'ui.router', 'ngResource', 'ngSanitize' ]);
 
 app.run(['$rootScope', '$state', '$stateParams', function ($rootScope, $state, $stateParams) {
     $rootScope.$state = $state;

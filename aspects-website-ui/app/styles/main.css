@@ -33,7 +33,8 @@
 }
 
 .aspects-progress {
-    height: 350px;
+    min-height: 100px;
+    overflow: auto;
     margin-bottom: 30px;
     padding: 15px;
     background-color: #eee;
@@ -41,7 +42,8 @@
 }
 
 .aspects-recruitment {
-    height: 350px;
+    min-height: 350px;
+    overflow: auto;
     margin-bottom: 30px;
     padding: 15px;
     background-color: #eee;
@@ -69,4 +71,37 @@
     padding: 15px;
     background-color: #eee;
     border-radius: 6px;
+}
+
+.aspects-recruit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Warrior {
+    background-color: saddlebrown !important;
+}
+
+.Rogue {
+    background-color: #ffff00;
+}
+
+.Paladin {
+    background-color: hotpink;
+}
+
+.Hunter {
+    background-color: darkgreen;
+}
+
+.Warlock {
+    background-color: #800080;
+}
+
+.Mage {
+    background-color: deepskyblue;
+}
+
+.Shaman {
+    background-color: blue;
 }
