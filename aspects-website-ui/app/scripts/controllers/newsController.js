@@ -4,7 +4,17 @@
  * Controller : News Controller
  */
 angular.module('aspectsWebsiteUiApp')
-    .controller('NewsController', ['$scope', function ($scope) {
+    .controller('NewsController', ['$scope', 'UserFactory', function ($scope, UserFactory) {
+
+        var userDto = {
+            username: 'john'
+        };
+        UserFactory.addUser(userDto);
+
+        UserFactory.getUser(1).then(function(data){
+            console.log(data);
+            $scope.name = data.username
+        });
 
         $scope.newsList = [
             {
